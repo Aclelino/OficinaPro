@@ -1,0 +1,114 @@
+/* Configuracões gerais */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+ }
+
+ body {
+
+    font-family: Arial,sans-serif;
+    background-color: #f3f5f9;
+    color: #1e293b;
+ }
+
+ /* Layout configuração */
+
+ .layout {
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+
+ }
+
+ .infor {
+    padding:50px;
+    background-color: #2756a0;
+    color: #ffffff;
+    border-radius: 22px;
+    
+    
+ }
+
+ .dados {
+
+    padding: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 15px;
+   
+ }  
+ 
+.card {
+
+    flex: 1 1 220px;
+    background-color: blue;
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+    box-sizing: border-box;
+    padding: 20px;
+    overflow: hidden;
+    
+}
+
+
+
+.card2 {
+
+    flex: 1 1 220px;
+    background-color: rgb(252, 252, 252);
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+    box-sizing: border-box;
+    padding: 20px;
+    overflow: hidden;
+
+}
+
+
+
+
+@media (max-width: 600px) {
+    .layout {
+        flex-direction: column;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+
+    h3 {
+        font-size: 16px;
+    }
+}
+
+.caixalogin{
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.login {
+    
+    background-color: #2756a0;
+    padding: 15%;
+    border-radius: 10px;
+
+}

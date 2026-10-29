@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+
+{% block header %}
+    {% block title %} OficinaPro - Login {% endblock %}
+{% endblock %}
+
+
+
+{%  block content %}
+    <div class="caixalogin">
+         <div class="login">
+            <form action="/auth/home" method="GET">
+
+                <input type="text" name="usuario" placeholder="Usuário">
+                <input type="password" name="senha" placeholder="Senha">
+
+                <button type="submit">Entrar</button>
+
+            </form>
+        </div>
+    </div>
+
+{% endblock %}
+

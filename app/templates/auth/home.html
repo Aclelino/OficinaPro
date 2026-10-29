@@ -1,0 +1,68 @@
+{% extends 'base.html' %}
+
+{% block  header %}
+    <h1>{% block title %} OficinaPro {% endblock %}</h1>
+{% endblock %}
+
+{%  block content %}
+    <div class="layout">
+        <div class="infor">
+            <h2><p>Bem vindo {{nome}}!</p></h2>
+
+            <div class="dados">
+
+                <div class="card">
+
+                    <h3><p> 👤</p>
+                    <p>0</p>
+                    <p>Total cliente</p>
+                    </h3>
+                </div>
+
+                <div class="card">
+
+                    <h3><p> ​📋</p>
+                    <p>0</p>
+                    <p>Ordem de serviços</p>
+                    </h3>
+                </div>
+
+                <div class="card">
+
+                    <h3><p> ​👨‍🔧​</p>
+                    <p>0</p>
+                    <p>Mecânico</p>
+                    </h3>
+                </div>
+
+            </div>
+        </div>
+        <div class="info2">
+
+            <h2><p> Ação rápido</p></h2>
+            <div class="dados">
+                <div class="card2">
+                    <h3><p> 👤  </p>
+                    <p>Adicionar cliente</p>
+                    </h3>
+                    </div>
+                <div class="card2">
+                    <h3><p> 🚘​ </p>
+                    <p> Adicionar veiculo </p>
+                    </h3>
+                </div>
+                    
+                <div class="card2">
+                    <h3><p> 📋  </p>
+                    <p>Cliar ordem de serviços</p>
+                    </h3>
+         
+        </div>
+
+                </div>
+            </div>
+                
+        </div>
+    </div>
+
+{% endblock %}
